@@ -13,6 +13,7 @@ var MIN_PORT_NUMBER = 49151;
 module.exports = {
   name: 'ember-cli-deploy-ssh-tunnel',
 
+  
   createDeployPlugin: function(options) {
     var DeployPlugin = DeployPluginBase.extend({
       name: options.name,
